@@ -1,7 +1,8 @@
-python-telegram-bot
 python-dotenv
+requests
+deepgram-sdk
+python-telegram-bot
 langchain
+langchain-core
+langchain-community
 langchain-groq
-asyncio
-langchain_community
-deepgram
