@@ -4,3 +4,4 @@ langchain
 langchain-groq
 asyncio
 langchain_community
+deepgram
