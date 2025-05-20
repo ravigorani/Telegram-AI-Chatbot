@@ -12,6 +12,7 @@ from langchain_core.messages import HumanMessage
 # Load environment variables
 load_dotenv()
 TELEGRAM_BOT_TOKEN = os.getenv("Token")
+
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 DEEPGRAM_API_KEY = os.getenv("DEEPGRAM_API_KEY")
 # Initialize conversation memory
