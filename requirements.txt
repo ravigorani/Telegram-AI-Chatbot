@@ -1,0 +1,6 @@
+python-telegram-bot
+python-dotenv
+langchain
+langchain-groq
+asyncio
+langchain_community
