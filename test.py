@@ -79,7 +79,7 @@ async def text_generation(update: Update, context: CallbackContext,text) -> None
     # user_input = update.message.text
     print("Response is Generating...")
     response = conversation.invoke([HumanMessage(content=text)],
-                        config={'configurable':{'session_id':"1"}})['content']
+                        config={'configurable':{'session_id':"1"}}).content
     # response = conversation.predict(input=text)
     await update.message.reply_text(f"""{text}
 Answer: {response}""")
